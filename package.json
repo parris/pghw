@@ -1,0 +1,33 @@
+{
+  "name": "plangrid-hw",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "jest",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^1.2.3"
+  },
+  "devDependencies": {
+    "babel-jest": "^17.0.2",
+    "enzyme": "^2.6.0",
+    "jest": "^17.0.3",
+    "react": "^15.4.1",
+    "react-addons-test-utils": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "jest": {
+    "testRegex": "plangrid-hw/pages/.*Spec\\.js"
+  }
+}
